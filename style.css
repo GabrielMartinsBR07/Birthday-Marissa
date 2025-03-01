@@ -1,0 +1,29 @@
+body {
+    background-color: #ffe6f2;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #8c539c;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    font-size: 2.5em;
+}
+p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto 20px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.gallery img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
